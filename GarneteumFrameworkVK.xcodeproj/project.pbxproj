@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		16BF8BC321B5E0C50054E150 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16BF8BC221B5E0C50054E150 /* AppDelegate.swift */; };
+		16BF8BC521B5E0C50054E150 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16BF8BC421B5E0C50054E150 /* ViewController.swift */; };
+		16BF8BC821B5E0C50054E150 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16BF8BC621B5E0C50054E150 /* Main.storyboard */; };
+		16BF8BCA21B5E0C60054E150 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16BF8BC921B5E0C60054E150 /* Assets.xcassets */; };
+		16BF8BCD21B5E0C60054E150 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16BF8BCB21B5E0C60054E150 /* LaunchScreen.storyboard */; };
+		16BF8BD821B5E0C60054E150 /* GarneteumFrameworkVKTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16BF8BD721B5E0C60054E150 /* GarneteumFrameworkVKTests.swift */; };
+		16BF8BE321B5E0C60054E150 /* GarneteumFrameworkVKUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16BF8BE221B5E0C60054E150 /* GarneteumFrameworkVKUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		16BF8BD421B5E0C60054E150 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 16BF8BB721B5E0C40054E150 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16BF8BBE21B5E0C40054E150;
+			remoteInfo = GarneteumFrameworkVK;
+		};
+		16BF8BDF21B5E0C60054E150 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 16BF8BB721B5E0C40054E150 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16BF8BBE21B5E0C40054E150;
+			remoteInfo = GarneteumFrameworkVK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		16BF8BBF21B5E0C50054E150 /* GarneteumFrameworkVK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GarneteumFrameworkVK.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		16BF8BC221B5E0C50054E150 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		16BF8BC421B5E0C50054E150 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		16BF8BC721B5E0C50054E150 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		16BF8BC921B5E0C60054E150 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		16BF8BCC21B5E0C60054E150 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		16BF8BCE21B5E0C60054E150 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16BF8BD321B5E0C60054E150 /* GarneteumFrameworkVKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GarneteumFrameworkVKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		16BF8BD721B5E0C60054E150 /* GarneteumFrameworkVKTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GarneteumFrameworkVKTests.swift; sourceTree = "<group>"; };
+		16BF8BD921B5E0C60054E150 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16BF8BDE21B5E0C60054E150 /* GarneteumFrameworkVKUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GarneteumFrameworkVKUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		16BF8BE221B5E0C60054E150 /* GarneteumFrameworkVKUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GarneteumFrameworkVKUITests.swift; sourceTree = "<group>"; };
+		16BF8BE421B5E0C60054E150 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		16BF8BBC21B5E0C40054E150 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16BF8BD021B5E0C60054E150 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16BF8BDB21B5E0C60054E150 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		16BF8BB621B5E0C40054E150 = {
+			isa = PBXGroup;
+			children = (
+				16BF8BC121B5E0C50054E150 /* GarneteumFrameworkVK */,
+				16BF8BD621B5E0C60054E150 /* GarneteumFrameworkVKTests */,
+				16BF8BE121B5E0C60054E150 /* GarneteumFrameworkVKUITests */,
+				16BF8BC021B5E0C50054E150 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		16BF8BC021B5E0C50054E150 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				16BF8BBF21B5E0C50054E150 /* GarneteumFrameworkVK.app */,
+				16BF8BD321B5E0C60054E150 /* GarneteumFrameworkVKTests.xctest */,
+				16BF8BDE21B5E0C60054E150 /* GarneteumFrameworkVKUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		16BF8BC121B5E0C50054E150 /* GarneteumFrameworkVK */ = {
+			isa = PBXGroup;
+			children = (
+				16BF8BC221B5E0C50054E150 /* AppDelegate.swift */,
+				16BF8BC421B5E0C50054E150 /* ViewController.swift */,
+				16BF8BC621B5E0C50054E150 /* Main.storyboard */,
+				16BF8BC921B5E0C60054E150 /* Assets.xcassets */,
+				16BF8BCB21B5E0C60054E150 /* LaunchScreen.storyboard */,
+				16BF8BCE21B5E0C60054E150 /* Info.plist */,
+			);
+			path = GarneteumFrameworkVK;
+			sourceTree = "<group>";
+		};
+		16BF8BD621B5E0C60054E150 /* GarneteumFrameworkVKTests */ = {
+			isa = PBXGroup;
+			children = (
+				16BF8BD721B5E0C60054E150 /* GarneteumFrameworkVKTests.swift */,
+				16BF8BD921B5E0C60054E150 /* Info.plist */,
+			);
+			path = GarneteumFrameworkVKTests;
+			sourceTree = "<group>";
+		};
+		16BF8BE121B5E0C60054E150 /* GarneteumFrameworkVKUITests */ = {
+			isa = PBXGroup;
+			children = (
+				16BF8BE221B5E0C60054E150 /* GarneteumFrameworkVKUITests.swift */,
+				16BF8BE421B5E0C60054E150 /* Info.plist */,
+			);
+			path = GarneteumFrameworkVKUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		16BF8BBE21B5E0C40054E150 /* GarneteumFrameworkVK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16BF8BE721B5E0C60054E150 /* Build configuration list for PBXNativeTarget "GarneteumFrameworkVK" */;
+			buildPhases = (
+				16BF8BBB21B5E0C40054E150 /* Sources */,
+				16BF8BBC21B5E0C40054E150 /* Frameworks */,
+				16BF8BBD21B5E0C40054E150 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GarneteumFrameworkVK;
+			productName = GarneteumFrameworkVK;
+			productReference = 16BF8BBF21B5E0C50054E150 /* GarneteumFrameworkVK.app */;
+			productType = "com.apple.product-type.application";
+		};
+		16BF8BD221B5E0C60054E150 /* GarneteumFrameworkVKTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16BF8BEA21B5E0C60054E150 /* Build configuration list for PBXNativeTarget "GarneteumFrameworkVKTests" */;
+			buildPhases = (
+				16BF8BCF21B5E0C60054E150 /* Sources */,
+				16BF8BD021B5E0C60054E150 /* Frameworks */,
+				16BF8BD121B5E0C60054E150 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				16BF8BD521B5E0C60054E150 /* PBXTargetDependency */,
+			);
+			name = GarneteumFrameworkVKTests;
+			productName = GarneteumFrameworkVKTests;
+			productReference = 16BF8BD321B5E0C60054E150 /* GarneteumFrameworkVKTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		16BF8BDD21B5E0C60054E150 /* GarneteumFrameworkVKUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16BF8BED21B5E0C60054E150 /* Build configuration list for PBXNativeTarget "GarneteumFrameworkVKUITests" */;
+			buildPhases = (
+				16BF8BDA21B5E0C60054E150 /* Sources */,
+				16BF8BDB21B5E0C60054E150 /* Frameworks */,
+				16BF8BDC21B5E0C60054E150 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				16BF8BE021B5E0C60054E150 /* PBXTargetDependency */,
+			);
+			name = GarneteumFrameworkVKUITests;
+			productName = GarneteumFrameworkVKUITests;
+			productReference = 16BF8BDE21B5E0C60054E150 /* GarneteumFrameworkVKUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		16BF8BB721B5E0C40054E150 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Igor Ivanov";
+				TargetAttributes = {
+					16BF8BBE21B5E0C40054E150 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					16BF8BD221B5E0C60054E150 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 16BF8BBE21B5E0C40054E150;
+					};
+					16BF8BDD21B5E0C60054E150 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 16BF8BBE21B5E0C40054E150;
+					};
+				};
+			};
+			buildConfigurationList = 16BF8BBA21B5E0C40054E150 /* Build configuration list for PBXProject "GarneteumFrameworkVK" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 16BF8BB621B5E0C40054E150;
+			productRefGroup = 16BF8BC021B5E0C50054E150 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				16BF8BBE21B5E0C40054E150 /* GarneteumFrameworkVK */,
+				16BF8BD221B5E0C60054E150 /* GarneteumFrameworkVKTests */,
+				16BF8BDD21B5E0C60054E150 /* GarneteumFrameworkVKUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		16BF8BBD21B5E0C40054E150 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16BF8BCD21B5E0C60054E150 /* LaunchScreen.storyboard in Resources */,
+				16BF8BCA21B5E0C60054E150 /* Assets.xcassets in Resources */,
+				16BF8BC821B5E0C50054E150 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16BF8BD121B5E0C60054E150 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16BF8BDC21B5E0C60054E150 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		16BF8BBB21B5E0C40054E150 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16BF8BC521B5E0C50054E150 /* ViewController.swift in Sources */,
+				16BF8BC321B5E0C50054E150 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16BF8BCF21B5E0C60054E150 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16BF8BD821B5E0C60054E150 /* GarneteumFrameworkVKTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16BF8BDA21B5E0C60054E150 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16BF8BE321B5E0C60054E150 /* GarneteumFrameworkVKUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		16BF8BD521B5E0C60054E150 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 16BF8BBE21B5E0C40054E150 /* GarneteumFrameworkVK */;
+			targetProxy = 16BF8BD421B5E0C60054E150 /* PBXContainerItemProxy */;
+		};
+		16BF8BE021B5E0C60054E150 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 16BF8BBE21B5E0C40054E150 /* GarneteumFrameworkVK */;
+			targetProxy = 16BF8BDF21B5E0C60054E150 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		16BF8BC621B5E0C50054E150 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				16BF8BC721B5E0C50054E150 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		16BF8BCB21B5E0C60054E150 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				16BF8BCC21B5E0C60054E150 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		16BF8BE521B5E0C60054E150 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		16BF8BE621B5E0C60054E150 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		16BF8BE821B5E0C60054E150 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 78S4SSQ86F;
+				INFOPLIST_FILE = GarneteumFrameworkVK/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.garneteum.GarneteumFrameworkVK;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		16BF8BE921B5E0C60054E150 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 78S4SSQ86F;
+				INFOPLIST_FILE = GarneteumFrameworkVK/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.garneteum.GarneteumFrameworkVK;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		16BF8BEB21B5E0C60054E150 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 78S4SSQ86F;
+				INFOPLIST_FILE = GarneteumFrameworkVKTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.garneteum.GarneteumFrameworkVKTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GarneteumFrameworkVK.app/GarneteumFrameworkVK";
+			};
+			name = Debug;
+		};
+		16BF8BEC21B5E0C60054E150 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 78S4SSQ86F;
+				INFOPLIST_FILE = GarneteumFrameworkVKTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.garneteum.GarneteumFrameworkVKTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GarneteumFrameworkVK.app/GarneteumFrameworkVK";
+			};
+			name = Release;
+		};
+		16BF8BEE21B5E0C60054E150 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 78S4SSQ86F;
+				INFOPLIST_FILE = GarneteumFrameworkVKUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.garneteum.GarneteumFrameworkVKUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GarneteumFrameworkVK;
+			};
+			name = Debug;
+		};
+		16BF8BEF21B5E0C60054E150 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 78S4SSQ86F;
+				INFOPLIST_FILE = GarneteumFrameworkVKUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.garneteum.GarneteumFrameworkVKUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GarneteumFrameworkVK;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		16BF8BBA21B5E0C40054E150 /* Build configuration list for PBXProject "GarneteumFrameworkVK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16BF8BE521B5E0C60054E150 /* Debug */,
+				16BF8BE621B5E0C60054E150 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16BF8BE721B5E0C60054E150 /* Build configuration list for PBXNativeTarget "GarneteumFrameworkVK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16BF8BE821B5E0C60054E150 /* Debug */,
+				16BF8BE921B5E0C60054E150 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16BF8BEA21B5E0C60054E150 /* Build configuration list for PBXNativeTarget "GarneteumFrameworkVKTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16BF8BEB21B5E0C60054E150 /* Debug */,
+				16BF8BEC21B5E0C60054E150 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16BF8BED21B5E0C60054E150 /* Build configuration list for PBXNativeTarget "GarneteumFrameworkVKUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16BF8BEE21B5E0C60054E150 /* Debug */,
+				16BF8BEF21B5E0C60054E150 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 16BF8BB721B5E0C40054E150 /* Project object */;
+}
